@@ -1,0 +1,6 @@
+module HashApp {
+  interface Hash {
+	string add(in long meth,in string clip);   
+	oneway void shutdown(); 
+  };
+};
